@@ -1,0 +1,40 @@
+.noteCard {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.noteCard__container {
+  min-height: 60px;
+  padding: 15px;
+  border-radius: 10px !important;
+}
+
+.noteCard__dialogBody {
+  min-height: 60px;
+  padding: 15px 20px 15px 20px;
+}
+
+@media only screen and (min-width: 960px) {
+  .noteCard__container {
+    max-width: 250px;
+  }
+}
+
+.noteCard__title {
+  color: #202124;
+  letter-spacing: 0.00625em;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.noteCard__content {
+  color: #3c4043;
+  letter-spacing: 0.01428571em;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}

@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  border-bottom: 1px solid #eae2b7;
+}
+
+.header__logo {
+  width: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.header__title {
+  font-weight: 500;
+  color: #202124;
+  letter-spacing: 0.00625em;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f1f3f4;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 0.7;
+  max-width: 720px;
+}
+
+.header__searchIcon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0 5px;
+  line-height: 0;
+}
+
+.header__searchInput {
+  background: transparent;
+  border: none;
+  font: normal 16px Google Sans, Roboto, RobotoDraft, Helvetica, Arial,
+    sans-serif;
+  height: 25px;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+}
